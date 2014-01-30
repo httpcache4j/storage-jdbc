@@ -167,9 +167,9 @@
       </plugin>
     </plugins>
   </build>
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <currentVersion>${project.version}</currentVersion>
   </properties>
 
 
@@ -184,10 +184,6 @@
       <name>Codehaus maven repo</name>
       <url>https://nexus.codehaus.org/content/repositories/snapshots</url>
     </snapshotRepository>
-    <site>
-      <id>codehaus-site</id>
-      <url>dav:https://dav.codehaus.org/httpcache4j</url>
-    </site>
   </distributionManagement>
 
   <profiles>
